@@ -1,0 +1,198 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>For Jashfer — From Ivankaa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fff7f9;
+      --card:#ffffff;
+      --accent:#d66b8c;
+      --muted:#6b6b6b;
+      --maxw:840px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; background:linear-gradient(180deg,#fff 0%,var(--bg) 100%); margin:0; padding:40px; color:#222;}
+    .wrap{max-width:var(--maxw); margin:0 auto; background:var(--card); border-radius:14px; box-shadow:0 8px 30px rgba(0,0,0,0.08); padding:34px;}
+    header{display:flex; align-items:center; justify-content:space-between; gap:20px;}
+    .title{font-family:"Playfair Display",serif; font-size:28px; color:var(--accent); margin:0;}
+    .subtitle{font-size:13px; color:var(--muted); margin:0;}
+    nav{margin-top:18px; display:flex; gap:12px;}
+    button.tab{background:transparent; border:1px solid var(--accent); color:var(--accent); padding:8px 12px; border-radius:8px; cursor:pointer; font-weight:600;}
+    button.tab.active{background:var(--accent); color:#fff;}
+    main{margin-top:22px;}
+    .panel{display:none; animation:fade .45s ease both;}
+    .panel.active{display:block;}
+    .two-col{display:grid; grid-template-columns:1fr 320px; gap:28px;}
+    .box{background:linear-gradient(180deg,#fff,#fffaf6); padding:18px; border-radius:10px; border:1px solid rgba(0,0,0,0.03); max-height:64vh; overflow:auto;}
+    ol{padding-left:18px; margin:0; column-count:2; column-gap:28px; font-size:15px; line-height:1.6;}
+    .letter{font-size:15.5px; line-height:1.7; color:#222; white-space:pre-wrap;}
+    footer{margin-top:18px; display:flex; justify-content:space-between; align-items:center;}
+    .small{font-size:13px; color:var(--muted);}
+    .actions a{background:var(--accent); color:#fff; padding:8px 12px; border-radius:8px; text-decoration:none; font-weight:600;}
+    @keyframes fade{from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:none}}
+    @media (max-width:880px){.two-col{grid-template-columns:1fr;}.wrap{padding:20px;} ol{column-count:1;}}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header>
+      <div>
+        <h1 class="title">For Jashfer — From Ivankaa</h1>
+        <p class="subtitle">A gentle, personal page filled with my words — perfect to send as a surprise.</p>
+      </div>
+      <div style="text-align:right">
+        <div class="small">Made for: <strong>Jashfer</strong></div>
+        <div class="small">From: <strong>Ivankaa</strong></div>
+      </div>
+    </header>
+
+    <nav>
+      <button class="tab active" data-panel="reasons">100 Reasons (message style)</button>
+      <button class="tab" data-panel="letter">Love Letter</button>
+    </nav>
+
+    <main>
+      <div id="reasons" class="panel active">
+        <div class="two-col">
+          <div class="box" aria-labelledby="reasons-title">
+            <h2 id="reasons-title" style="margin-top:0; color:var(--accent); font-family:Playfair Display,serif">100 Reasons Why I Love You</h2>
+            <ol>
+              <li>Because you always know how to make me laugh — even when I don’t want to.</li>
+              <li>Because you’re patient with my moods (and that’s not easy).</li>
+              <li>Because your eyes make me melt every single time.</li>
+              <li>Because I can totally be my weird self with you.</li>
+              <li>Because you always know how to make my bad day better.</li>
+              <li>Because you get me — even when I don’t make sense.</li>
+              <li>Because you love me at my best and my messiest.</li>
+              <li>Because every little thing you do makes my heart smile.</li>
+              <li>Because you actually listen (like, really listen).</li>
+              <li>Because you know how to love me right.</li>
+              <li>Because your heart is just… pure gold.</li>
+              <li>Because you’re so gentle with me.</li>
+              <li>Because you remember tiny things that even I forget.</li>
+              <li>Because you’re honest, and I love that.</li>
+              <li>Because you make me feel loved every single day.</li>
+              <li>Because your hugs are the safest place in the world.</li>
+              <li>Because you’re calm when I’m dramatic.</li>
+              <li>Because you respect me, even when we disagree.</li>
+              <li>Because you never make me feel silly for being me.</li>
+              <li>Because you’re funny — and sometimes you don’t even try.</li>
+              <li>Because your smile? Yeah, it ruins me.</li>
+              <li>Because you’re smart and humble (killer combo).</li>
+              <li>Because you always try to be better, and that inspires me.</li>
+              <li>Because you never give up on us.</li>
+              <li>Because you make me feel like the luckiest girl ever.</li>
+              <li>Because your arms are my favorite place to be.</li>
+              <li>Because you always know when I need you.</li>
+              <li>Because you make me feel special, even on random Tuesdays.</li>
+              <li>Because you call me cute when I’m actually being annoying.</li>
+              <li>Because you can actually say “sorry” (and mean it).</li>
+              <li>Because you keep your word.</li>
+              <li>Because your warmth is everything.</li>
+              <li>Because you explain things to me without making me feel dumb.</li>
+              <li>Because you make time for me — always.</li>
+              <li>Because you’re genuinely kind.</li>
+              <li>Because you never get tired of my stories, even the long ones.</li>
+              <li>Because you make me feel heard, no matter how many times I talk about the same thing.</li>
+              <li>Because you make serious stuff feel lighter.</li>
+              <li>Because you believe in me when I can’t.</li>
+              <li>Because you make me want to be my best self.</li>
+              <li>Because every moment with you is a little bit magic.</li>
+              <li>Because you can turn my bad mood into laughter in seconds.</li>
+              <li>Because you see the good in me when I don’t.</li>
+              <li>Because you stay, even when I’m not easy to love.</li>
+              <li>Because you remind me what happiness feels like.</li>
+              <li>Because you’re my peace after chaos.</li>
+              <li>Because you make ordinary days feel like something to remember.</li>
+              <li>Because you make everything more meaningful.</li>
+              <li>Because you always have my back.</li>
+              <li>Because you make me feel safe — emotionally and physically.</li>
+              <li>Because you love me with no limits.</li>
+              <li>Because you accept my flaws (even when I complain too much).</li>
+              <li>Because you never judge me.</li>
+              <li>Because I can talk to you about literally anything.</li>
+              <li>Because you make me laugh till I can’t breathe.</li>
+              <li>Because you never let me forget how much I mean to you.</li>
+              <li>Because you do the sweetest things without even realizing it.</li>
+              <li>Because you’re my calm in the middle of everything.</li>
+              <li>Because we can sit in silence and it still feels right.</li>
+              <li>Because you always believe in us, no matter what.</li>
+              <li>Because you fill my heart every single day.</li>
+              <li>Because you never make me feel small.</li>
+              <li>Because your love shows in everything you do.</li>
+              <li>Because you never stop putting effort in.</li>
+              <li>Because you make me feel truly seen.</li>
+              <li>Because you remind me what real love looks like.</li>
+              <li>Because you make it easy to talk things through when I overthink.</li>
+              <li>Because saying goodbye to you is always the hardest part of my day.</li>
+              <li>Because loving you feels natural — like breathing.</li>
+              <li>Because you make it safe for me to be vulnerable.</li>
+              <li>Because you bring out my best side.</li>
+              <li>Because your words always hit exactly right.</li>
+              <li>Because you’re my favorite adventure.</li>
+              <li>Because you handle my chaos like a pro.</li>
+              <li>Because you’re gentle in all the right ways.</li>
+              <li>Because you still make me laugh even when I’m trying to stay serious.</li>
+              <li>Because you know me better than anyone.</li>
+              <li>Because you never make me feel like “too much.”</li>
+              <li>Because you always make time, even when you’re busy.</li>
+              <li>Because your love feels real, deep, and steady.</li>
+              <li>Because you make me feel chosen.</li>
+              <li>Because you’re my comfort zone and my excitement at once.</li>
+              <li>Because you never stop caring.</li>
+              <li>Because you make love feel easy.</li>
+              <li>Because you make my world brighter.</li>
+              <li>Because you’re everything I didn’t know I needed.</li>
+              <li>Because you make me laugh at myself (and you love it).</li>
+              <li>Because you always bring my smile back.</li>
+              <li>Because you make even bad days worth it.</li>
+              <li>Because you’re my person — always and forever.</li>
+              <li>Because you make life feel softer, happier, and lighter.</li>
+              <li>Because you love me in ways I didn’t know I needed.</li>
+              <li>Because every moment with you is unforgettable.</li>
+              <li>Because you’re my best friend and my love.</li>
+              <li>Because you make me stronger.</li>
+              <li>Because you choose me, again and again.</li>
+              <li>Because you made me believe in love again.</li>
+              <li>Because you’re my reason to smile every day.</li>
+              <li>Because you’re literally my favorite human ever.</li>
+              <li>Because I just do — I love you, Jashfer. That’s it. No reason needed.</li>
+            </ol>
+          </div>
+          
+      <div id="letter" class="panel">
+        <div class="box">
+          <h2 style="margin-top:0; color:var(--accent); font-family:Playfair Display,serif">A Letter for You, My Jashferrrr</h2>
+          <div class="letter">
+Dear Sayang,
+
+Sometimes I try to explain why I love you so much, but the truth is, I never can. There are a hundred reasons, maybe more, but none of them ever feel enough. Still, I’ll try.
+
+I love the way you make me feel calm, even when I’m being dramatic. You never make me feel like I’m too much, even when I know I can be. You just stay — steady, patient, soft. You let me be me. And that’s one of the reasons I’ll always be grateful for you.
+
+I love how your presence feels like peace. The world could be loud and messy, but when it’s just you and me, everything slows down. You make ordinary days feel special. You make silence comfortable. You make life lighter.
+
+You listen. You care in quiet ways. You notice small things I don’t even realize about myself. You remember what I like, how I take my coffee, when I need space, or when I just need a hug. Those small things — they mean everything to me.
+
+I love how you love me — without pressure, without games, without conditions. You love me on my soft days and my loud days, when I’m smiling and when I’m overthinking. You love all my sides, even the ones I sometimes wish I could hide.
+
+And Sayangku, I love the way you make me laugh. How you never let me stay upset for long. How you tease me just enough to bring me back to myself. You make life feel lighter, brighter, and so much more beautiful.
+
+With you, everything feels right. You’re my calm after my chaos, my safety after a storm. You’re the warmth I look for, the voice that grounds me, the heart that feels like home.
+
+Thank you for always being patient with me. For never making me feel like I have to earn your love. For staying — not just in words, but in the quiet, constant ways that truly matter.
+
+I don’t love you because you’re perfect. I love you because you’re real. Because you choose to love me every single day, even when I’m not the easiest to love.
+
+So here’s my truth, simple and sure: I love you, Jashfer. I love you for a hundred reasons and none at all. I love you because you’re you — and that’s all I ever need.
+
+With Love,
+your baby
+          </div>
+        </div>
+      </div>
+        </mai>
